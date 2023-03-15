@@ -1,0 +1,196 @@
+/* @font-face {
+    font-family: "Light";   Can be any text
+    src: local("SwanseaBoldItalic-p3Dv.ttf"),
+      url('./fonts/SwanseaBoldItalic-p3Dv.ttf') format("truetype");
+  } */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+  
+.Innov{
+    /* width: 70%; */
+    background-color: #021420;
+    display: flex;
+    
+    
+}
+.Innov_imgpa_r2_c1{
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.Innov_inner{
+    
+   width: 70%;
+    background-color: rgba(6, 7, 7, 0.295);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin: 30px;
+    color:white;
+    border-radius: 10px;
+}
+.Innov_inner_inner{
+    margin: 25px;
+}
+.Innov_header_r1{
+    
+    display: flex;
+    justify-content:left;
+    color :white;
+    margin-left: 10px;
+   letter-spacing:1px;
+ 
+}
+.Innov_header_r1 h2{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "Light";  */
+/* font-size: 40px; */
+
+}   
+
+.Innov_imgpa_r2{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.Innov_imgpa_r2_c2{
+    width:75%;
+    color :white;
+    margin-right: 25px;
+    flex-direction: row;
+}
+.Innov_imgpa_r2_c2_p1{
+  /* width: 80%; */
+  text-indent: 80px;
+}
+.Innov_imgpa_r2_c2_sp1{
+    color: #1799CF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Innov_imgpa_r2_c2_sp2{
+   font-weight: bold;
+}
+.Innov_imgpa_r2_c2_sp3{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Innov_inner p{
+    /* font-size: 0.8125em;
+    line-height: 1.384em; */
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.384em;
+    word-spacing: 3px;
+    /* letter-spacing:.1px; */
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+.Innov_imgpa_r4_button{
+    width: 100%;
+        display: flex;
+        justify-content:left;
+    
+}
+.Innov_imgpa_r4_button button{
+width: 15%;
+margin: 10px;
+color:orange;
+/* background-color: #005d91; */
+background-color: rgb(19, 47, 56);
+border-radius: 6px;
+border: none;
+padding: 10px;
+transition: all .2s ease-in-out;
+
+}
+.Innov_imgpa_r4_button button:hover{
+ /* width: 95%; */
+ margin: 10px;
+ color: whitesmoke;
+ /* background-color: orange; */
+ background-color: rgb(8, 105, 134);
+ border-radius: 8px;
+ border: none;
+ padding: 10px;
+ transform: scale(1.1);
+}
+
+
+/* @media query             */
+@media only screen and (max-width: 768px) {
+    .Innov{
+        /* width: 70%; */
+        background-color: #021420;
+        display: flex;
+        
+        
+}
+.Innov_inner{
+    width: 95%;
+    background-color: rgba(6, 7, 7, 0.295);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin: 30px;
+    margin-top: 60px;
+    color:white;
+    border-radius: 10px;
+}
+
+.Innov_header_r1 h2{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 500;
+    /* font-style: italic; */
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "Light";  */
+/* font-size: 40px; */
+
+}
+.Innov_imgpa_r4_button{
+    width: 100%;
+        display: flex;
+        justify-content:left;
+    
+}
+.Innov_imgpa_r4_button button{
+width: 25%;
+margin: 10px;
+color:orange;
+/* background-color: #005d91; */
+background-color: rgb(19, 47, 56);
+border-radius: 6px;
+border: none;
+padding: 10px;
+transition: all .2s ease-in-out;
+
+}
+.Innov_imgpa_r4_button button:hover{
+ /* width: 95%; */
+ margin: 10px;
+ color: whitesmoke;
+ /* background-color: orange; */
+ background-color: rgb(8, 105, 134);
+ border-radius: 8px;
+ border: none;
+ padding: 10px;
+ transform: scale(1.1);
+}
+}
