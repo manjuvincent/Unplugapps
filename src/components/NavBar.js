@@ -1,5 +1,5 @@
 import './NavBar.css';
-import { NavLink } from "react-router-dom";
+import { NavLink,NavBtn,NavBtnLink } from "react-router-dom";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
